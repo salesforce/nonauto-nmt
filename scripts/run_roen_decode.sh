@@ -1,0 +1,11 @@
+python run.py --prefix [time] --gpu 5 \
+            --dataset wmt16-roen --language roen \
+            --level subword \
+            --use_mask \
+            --batchsize 32000 \
+            --use_wo \
+            --share_embeddings \
+            --mode test \
+            --load_from 10.17_21.19.wmt16-enro_subword_512_512_6_8_0.100_16000___  \
+            --load_vocab \
+	        --test_set dev \
